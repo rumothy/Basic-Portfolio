@@ -1,8 +1,73 @@
-/* .aboutMeBack {
-    background-image: url("../images/trees.png");
-  }
+* {
+  box-sizing: border-box;
+}
 
-.aboutMe {
-  background-color: white;
-  padding: 200px;
-} */
+body {
+  font-size: 24px;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+  height: 200px;
+  
+}
+
+nav {
+  padding: 40px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#left {
+  float: left;
+  background-color: #666;
+  color: white;
+  width: 33%;
+}
+
+#middle {
+  float: left;
+  background: #888;
+  color: white;
+  width: 33%;
+}
+
+#right {
+  float: right;
+  background: #666;
+  color: white;
+  width: 33%;
+}
+
+#full {
+  clear: both;
+  background: #394549;
+  overflow: auto;
+  width: 100%;
+  background-image: url("../images/trees.png");
+
+}
+
+#division {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  clear: both;
+  background-color: #ccc;
+  padding: 20px;
+}
