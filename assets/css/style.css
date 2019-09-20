@@ -1,73 +1,100 @@
-* {
-  box-sizing: border-box;
+.clr {
+  clear: both;
 }
 
-body {
-  font-size: 24px;
-}
-
-header {
+header h1 {
+  float: left;
+  background: #4AAAA5;
+  color: #fff;
+  margin: 0 0 0 40px;
   padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
-  height: 200px;
-  
 }
 
 nav {
-  padding: 40px;
-}
-
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-section {
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-#left {
-  float: left;
-  background-color: #666;
-  color: white;
-  width: 33%;
-}
-
-#middle {
-  float: left;
-  background: #888;
-  color: white;
-  width: 33%;
-}
-
-#right {
   float: right;
-  background: #666;
+}
+
+nav ul {
+  padding:10px;
+  list-style: none;
+}
+
+nav li {
+   display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 5px 0 5px;
+  color: #666;
+}
+
+nav a:hover{
+  background: #4AAAA5;
   color: white;
-  width: 33%;
 }
 
-#full {
-  clear: both;
-  background: #394549;
-  overflow: auto;
-  width: 100%;
-  background-image: url("../images/trees.png");
-
+.img-text img {
+  float: left;
+  width: 25%;
 }
 
-#division {
-  background: white;
+.img-text p {
+  float: right;
+  width: 75%;
+  margin: 0;
+}
+
+.content-main {
   padding: 20px;
-  margin-top: 20px;
+  background: #fff;
+  color: #666;
+}
+
+.content-main h1{
+  color: #4AAAA5;
+}
+
+.content-bg{
+  padding: 20px 40px;
+  background-image: url('../images/trees.png');
 }
 
 footer {
-  clear: both;
-  background-color: #ccc;
+  background: #666;
+  color:#fff;
+  text-align: center;
+  padding:20px;
+  margin-top: 0;
+  border-top: 5px #4AAAA5 solid;
+}
+
+.my-form {
   padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"], input[type="email"], .my-form textarea {
+  padding:8px;
+  width: 100%;
+}
+
+.button {
+  background: #4AAAA5;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button:hover {
+  background: #666;
+  color: white;
 }

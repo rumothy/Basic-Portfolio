@@ -5,29 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
         <h1>Ross Agginie</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>|          
+                <li><a href="portfolio.html">Portfolio</a></li>|
+                <li><a href="contact.html">Contact</a></li> 
+            </ul>
+        </nav>
     </header>
+    <div class="clr"></div>
 
-    <section>
-        <section>
-            <h2>Contact</h2>
+    <section class="content-bg">
+        <!-- Contact -->
+        <div class="content-main">
+            <h1>Contact</h1>
             <hr>
-            <h3>Name</h3>
-            <input type="text">
-            <h4>Email</h4>
-            <input type="email">
-            <h5>Message</h5>
-            <textarea name="Message" id="" cols="30" rows="10"></textarea>
-        </section>
+            <form class="my-form">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email">    
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <input class="button" type="submit" value="Submit">
+            </form>
+        </div>
     </section>
 
     <footer>
-
-    </footer>    
+        <p>Copyright &copy; 2019</p>
+    </footer>
 </body>
 </html>
