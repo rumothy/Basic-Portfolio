@@ -50,6 +50,9 @@ nav a:hover{
   padding: 20px;
   background: #fff;
   color: #666;
+  float: left;
+  height: 550px;
+  width: 80%
 }
 
 .content-main h1{
@@ -59,6 +62,8 @@ nav a:hover{
 .content-bg{
   padding: 20px 40px;
   background-image: url('../images/trees.png');
+  float: left;
+  width: 100%;
 }
 
 footer {
@@ -68,10 +73,13 @@ footer {
   padding:20px;
   margin-top: 0;
   border-top: 5px #4AAAA5 solid;
+  width:100%;
+
 }
 
 .my-form {
   padding: 20px;
+  float: left;
 }
 
 .my-form .form-group {
@@ -98,3 +106,6 @@ footer {
   background: #666;
   color: white;
 }
+
+
+
