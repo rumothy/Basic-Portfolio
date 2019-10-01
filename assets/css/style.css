@@ -1,111 +1,131 @@
-.clr {
-  clear: both;
+body {
+  background-image: url("../images/trees.png");
+  margin: 0px;
 }
 
-header h1 {
-  float: left;
-  background: #4AAAA5;
+.Header {
+  background-color: #fff;
+  position: relative;
+  height: 90px;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0px 0px 2px 0px;
+}
+
+.Name {
   color: #fff;
-  margin: 0 0 0 40px;
-  padding: 20px;
+  background: #4aaaa5;
+  padding: 10px;
+  margin-left: 10%;
+  width:300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
 }
 
-nav {
-  float: right;
+.Nav {
+  float: left;
+  margin-left: 65%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 30px;
+  clear: right;
 }
 
-nav ul {
-  padding:10px;
-  list-style: none;
+.About {
+  padding: 0px 5px 0px 5px;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0px 1px 0px 0px;
+  height: 8px;
+  width: 15px;
 }
 
-nav li {
-   display: inline;
+.Portfolio {
+  padding: 0px 5px 0px 0px;
+  border-style: solid;  
+  border-color: #ddd;
+  border-width: 0px 1px 0px 0px;
+  height: 8px;
+  width: 15px;
 }
 
-nav a {
+a:link {
+  color: #ddd;
   text-decoration: none;
-  font-size: 18px;
-  padding: 0 5px 0 5px;
-  color: #666;
 }
 
-nav a:hover{
-  background: #4AAAA5;
-  color: white;
+a:visited {
+  color: #ddd;
+  text-decoration: none;
 }
 
-.img-text img {
+a:hover {
+  color:#4aaaa5;
+  text-decoration: none;
+}
+
+a:active {
+ color:#4aaaa5;
+ text-decoration: none;
+}
+
+.ContentDiv {
+  clear:both;
+}
+
+.AboutMeSection {
+  width: 610px;
+  height: 350px;
+  margin-left: 50px;
   float: left;
-  width: 25%;
+  border-style: solid;
+  border-color: #ddd;
+  border-width:  2px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.img-text p {
-  float: right;
-  width: 75%;
-  margin: 0;
+.AboutMeTitle {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #ddd;
+  padding: 10px 0px 10px 0px;
 }
 
-.content-main {
-  padding: 20px;
-  background: #fff;
-  color: #666;
+.AboutMeImage {
   float: left;
-  height: 550px;
-  width: 80%
+  padding: 0px 10px;
 }
 
-.content-main h1{
-  color: #4AAAA5;
-}
-
-.content-bg{
-  padding: 20px 40px;
-  background-image: url('../images/trees.png');
-  float: left;
-  width: 100%;
-}
-
-footer {
-  background: #666;
-  color:#fff;
-  text-align: center;
-  padding:20px;
-  margin-top: 0;
-  border-top: 5px #4AAAA5 solid;
-  width:100%;
-
-}
-
-.my-form {
-  padding: 20px;
+.AboutMeText {
   float: left;
 }
 
-.my-form .form-group {
-  padding-bottom: 15px;
+.SideBar {
+  width: 270px;
+  height: 200px;
+  margin-left: 30px;
+  float: left;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 2px;
+  padding: 0px 20px 20px 20px;
+  background-color: #fff;
 }
 
-.my-form label {
-  display: block;
+.ConnectTitle {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #ddd;
+  padding: 10px 0px 10px 0px;
 }
 
-.my-form input[type="text"], input[type="email"], .my-form textarea {
-  padding:8px;
-  width: 100%;
+.PortfolioSection {
+  width: 650px;
+  height: 650px;
 }
-
-.button {
-  background: #4AAAA5;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-}
-
-.button:hover {
-  background: #666;
-  color: white;
-}
-
-
-
