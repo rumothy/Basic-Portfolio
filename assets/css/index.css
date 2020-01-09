@@ -1,27 +1,48 @@
-.container {
+.header {
     height: 100%;
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 40px auto 40px;
+    grid-template-rows: 40px;
     grid-template-areas: 
-        "h h h h h h h h h h h h"
-        "m c c c c c c c c c c c"
-        "f f f f f f f f f f f f";
+        "h h h h n n n n n n n n";
 }
 
-.header {
+ .headerA {
     grid-area: h;
 }
 
-.menu {
-    grid-area: m;
+.navContainer {
+    grid-area: n;
 }
 
+.navContainer > nav > ul > li{
+    display: inline-flex;
+}
+
+/*
 .content {
     grid-area: c;
 }
 
 .footer {
     grid-area: f;
+} */
+
+/* .nav > li {
+    display: flex;
+} */
+
+/* .header {
+    display: grid;
+    grid-gap: 3px;
+    margin: 0px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px;
 }
+
+.nav  > ul {
+    grid-column: 8 / -1;
+} */
+
+
