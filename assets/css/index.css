@@ -5,44 +5,31 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 40px;
     grid-template-areas: 
-        "h h h h n n n n n n n n";
+        "n _ _ _ _ _ _ a s e p c";
 }
 
- .headerA {
-    grid-area: h;
-}
-
-.navContainer {
+ .myName {
     grid-area: n;
+    width: 200px;
 }
 
-.navContainer > nav > ul > li{
-    display: inline-flex;
+.navAbout {
+    grid-area: a;
 }
 
-/*
-.content {
+.navServices {
+    grid-area: s;
+}
+
+.navExperience {
+    grid-area: e;
+}
+
+.navPortfolio {
+    grid-area: p;
+}
+
+.navContact {
     grid-area: c;
 }
-
-.footer {
-    grid-area: f;
-} */
-
-/* .nav > li {
-    display: flex;
-} */
-
-/* .header {
-    display: grid;
-    grid-gap: 3px;
-    margin: 0px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 40px;
-}
-
-.nav  > ul {
-    grid-column: 8 / -1;
-} */
-
 
